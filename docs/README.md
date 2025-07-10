@@ -24,13 +24,13 @@ Software developers juggle many tools—IDEs, docs, task managers, chat apps. lo
 
 | Feature              | Description                                               | Why it Matters                                      |
 |---------------------|-----------------------------------------------------------|-----------------------------------------------------|
-| /load-project        | Load project directories to extract metadata and main files | Enables Anthropic API to understand your codebase context |
+| /load-project        | Load project directories to extract metadata and main files | Enables claude to understand your codebase context |
 | Freeform AI Chat     | Natural language AI chat about your loaded project        | Provides intuitive, conversational AI assistance    |
 | /plan-feature        | Break feature requests down into organized tasks          | Organizes your work and saves valuable time         |
 | /fetch-docs          | Retrieve snippets from official docs (Flutter, Node, etc.)| Supports quick tech discovery and reminders         |
 | Contextual Memory    | Store file embeddings locally for smarter AI responses    | Keeps long-term context for relevant assistance     |
 | /generate-docs       | Auto-generate documentation from your code or tasks       | Boosts maintainability and reduces manual effort    |
-| SQLite Persistence   | Caches fetched docs, metadata, and CLI history            | Enables fast retrieval and offline use              |
+| Data Persistence   | Caches fetched docs, metadata, and CLI history            | Enables fast retrieval and offline use              |
 
 ## Technical Highlights
 
@@ -102,7 +102,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 
-Questions, suggestions, or want to contribute? Reach out at your.email@example.com or open an issue on GitHub.
+Questions, suggestions, or want to contribute? Reach out at axeldaboworkplace@gmail.com or open an issue on GitHub.
 
 locMind-CLI empowers developers to harness AI intelligently and privately — all from the command line.
 ````
